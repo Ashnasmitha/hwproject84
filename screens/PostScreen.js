@@ -128,7 +128,7 @@ const styles= StyleSheet.create({
         marginLeft: RFValue(5)
     },
     authorContainer: {
-        height: RFPercentage(10),
+        height: RFValue(10),
         padding: RFValue(10),
         flexDirection: "row"
     },
