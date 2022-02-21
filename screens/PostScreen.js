@@ -52,7 +52,7 @@ export default class PostScreen extends Component{
                             </View>
                         </View>
                         <Image source={require('../assets/image_1.jpg')} 
-                        style={styles.postIamge}/>
+                        style={styles.postImage}/>
                         <View style={styles.captionContainer}>
                             <Text style={styles.captionText}>{this.props.route.params.caption}</Text>
                         </View>
